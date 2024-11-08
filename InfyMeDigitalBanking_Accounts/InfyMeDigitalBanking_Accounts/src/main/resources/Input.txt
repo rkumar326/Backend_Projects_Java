@@ -1,0 +1,12 @@
+For @PutMapping(value = "/accounts/fundtransfer")
+{
+     "transactionId" : 1,
+    "modeOfTransaction" : "Fund Transfer",
+    "paidTo" : 7022713755,
+    "receiverAccountNumber": 55810643722,
+    "amount" : 1.0,
+    // "transactionDateTime" : ,
+    "remarks" : "Checking",
+    "paidFrom" : 9876987431,
+    "senderAccountNumber" : 11213409673
+}
