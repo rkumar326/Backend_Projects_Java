@@ -1,0 +1,21 @@
+{
+    "questionTitle": "What is maximum value for byte in Java?",
+    "option1": "100",
+    "option2": "127",
+    "option3": "255",
+    "option4": "999",
+    "rightAns": "127",
+    "difficultylevel": "Easy",
+    "category": "Java"
+}
+
+{
+    "questionTitle": "Which keyword is used to define a method to be inherited by subclasses in Java?",
+    "option1": "final",
+    "option2": "this",
+    "option3": "super",
+    "option4": "abstract",
+    "rightAns": "abstract",
+    "difficultylevel": "Easy",
+    "category": "Java"
+}

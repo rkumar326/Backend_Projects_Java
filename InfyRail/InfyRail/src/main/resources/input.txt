@@ -1,0 +1,49 @@
+Changed some codes in entities classes after watching telusko, So some of api might not work
+So don't forget it.....es ok???
+
+
+# post mapping (infyrail/routes), provide this kind of json data
+
+{
+    "id": 104,
+    "source": "Patna",
+    "destination": "Indore",
+    "trainList": [
+        {
+            "id": 19314,
+            "arrivalTime": "11:25:00",
+            "departureTime": "11:40:00",
+            "fare": 585.70,
+            "trainName": "Indore Express"
+        },
+        {
+            "id": 19322,
+            "arrivalTime": "11:25:00",
+            "departureTime": "11:30:00",
+            "fare": 590.96,
+            "trainName": "PNBE INDB Express"
+        },
+        {
+            "id": 19344,
+            "arrivalTime": "06:00:00",
+            "departureTime": "06:10:00",
+            "fare": 725.00,
+            "trainName": "PNBE DADN Special"
+        }
+    ]
+}
+
+
+# this data is for @PutMapping(value="/trains/{trainId}")
+{
+    "fare": 966.07
+}
+
+# this data is for @PostMapping(value="/infyrail/trains")
+{
+    "id": 10917,
+    "trainName": "Puri Hamsafar",
+    "arrivalTime": "15:00:00",
+    "departureTime": "15:20:00",
+    "fare": 755.04
+}
